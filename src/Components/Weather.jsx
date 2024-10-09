@@ -112,7 +112,7 @@ const Weather = () => {
     }, []);
 
     return (
-        <div className='flex flex-col items-center p-8 bg-gradient-to-r from-teal-500 via-purple-500 to-yellow-500
+        <div className='flex flex-col items-center p-8 bg-gradient-to-r from-teal-500 to-purple-500 
  rounded-lg shadow-lg transition-transform transform hover:scale-105 max-w-lg mx-auto mt-16'>
             <SearchBar onSearch={search} loading={loading} />
             {loading && <p className='text-gray-50 text-lg'>Loading...</p>}
